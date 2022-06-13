@@ -255,10 +255,7 @@ body {
     
 }
 
-.ui-dialog {
-    border-radius: 0;
-    border: none;
-}
+
 .ui-dialog-titlebar {
     border-radius: 0;
     border: none;
@@ -295,12 +292,16 @@ body {
     background-color: #b5afa4 !important;
     border-top: none;
     padding-top: 10px;
+    
 }
 
 #textchat-input .ui-autocomplete-input {
     background-color: #e8ddcd !important;
     border: none;
     border-radius: 0;
+      -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
 }
 
 #textchat-input .btn,
@@ -385,18 +386,22 @@ label {
     text-shadow: none!important;
 }
 
-/*
+
 .ui-dialog {
     position: fixed !important;
-    background-color: #9a9a9a;
+    padding: 0px 2px 0px 2px !important;
+    background-color: #cccabe;
 }
 
-*/
 
+
+/*
 .ui-dialog .largedialog {
 	padding: 0px 2px 0px 2px !important;
     background-color: #cccabe !important;
 }
+*/
+
 /*
 
 ui-dialog .largedialog .characterviewer {
