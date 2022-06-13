@@ -1,0 +1,416 @@
+/* KILLS PLAYER NAMES DISPLAYED */
+.player .playername {
+    background-color: rgb(0 0 0 / 0%);
+    color: #ffffff00;
+}
+
+#playerzone .player {
+    background-color: rgb(0 0 0 / 0%);
+    color: #ffffff00;
+    
+}
+
+.playercolor {
+    background-color: rgb(0 0 0 / 0%);
+    color: #ffffff00;
+}
+
+.element.style {
+    background-color: rgba(91, 145, 151, 0);
+}
+
+.color_picker {
+   background-color: rgb(0 0 0 / 0%) !important;
+    color: #ffffff00 !important; 
+}
+
+#floatingtoolbar {
+  background-color: rgb(0 0 0 / 10%);
+}
+
+#floatingtoolbar li {
+    color: #f0f8ff;
+    border-bottom: none;
+    background-color: rgba(0, 0, 0, .54);
+}
+/*
+#macrobar .btn {
+        background-color: #00000026 !important;
+    color: white !important;
+}*/
+/*
+#macrobar_macros {
+   background-color: rgb(0 0 0 / 0%) !important;
+}
+
+.btn {
+    background-color: rgba(255, 255, 255, .13) !important;
+    color: #000000 !important;
+    font-weight: 900;
+    -webkit-text-stroke: .4px #000;
+}
+*/
+
+#secondary-toolbar {
+    background-color: rgba(255, 255, 255, 0) !important;
+}
+
+
+
+
+
+
+
+
+
+/* TIGHTER SIDEBAR */
+
+.dd-list .journalitem .name, .dd-list .library-item .name {
+    top: 0px;
+}
+.dd-list .journalitem .token, .dd-list .library-item .token {
+    top: 0px;
+}
+.dd-item  .folder-title {
+        background-color: #535353 !important;
+    color: #fdf9eb;
+    }
+.dd-content {
+    padding: 0px;
+}
+
+#compendium .searchroot .dd-item .dd-content .token img {
+    padding: 0px;
+    max-width: 19px;
+    max-height: 19px;
+}
+#compendium .searchroot .dd-item .dd-content .token {
+    top: 0px;
+}
+#compendium .searchroot .dd-item .dd-content .sourcefooter {
+    width: 18px;
+       height: 18px;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    font-size: 6px;
+}
+.expandcontroller {
+    position: relative;
+    bottom:10px;
+}
+
+#compendium .searchroot .dd-item .dd-content .sourcefooter {
+    font-size: 12px;
+}
+
+.inapp .sourcefooter,.inapp.expansion3 .sourcefooter, .inapp.expansion9 .sourcefooter, .inapp.expansion13 .sourcefooter, .inapp.expansion16 .sourcefooter {
+    background-size: 15px 10px;
+    background-image:none;
+    padding-top: 5px;
+    top: 0px !important;
+}
+
+.dd-item, .dd-empty, .dd-placeholder {
+    min-height: 21px;
+    font-size: 12px;
+    line-height: 20px;
+}
+.dd-list .handout img, .dd-list .archivetable img, .dd-list .journalitem img, .dd-list .library-item img{
+    max-width: 20px;
+    max-height: 20px;
+}
+.dd-item>button {
+    height: 16px;
+    margin: 0px;
+    font-size: 14px;
+    top: 0px;
+}
+.dd-handle {
+    top: 0px;
+    width: 20px;
+    padding: 0px 10px;
+}
+
+
+
+
+
+
+
+
+/* WOOD AND GRAYS STYLING */
+/* GLOBAL */
+
+textarea,
+.btn {
+    border-color: #ddd3bb !important;
+    border-radius: 6;
+}
+select .btn {
+    cursor: pointer;
+}
+
+/*
+h1, h2, h3, h4, h5, h6 {
+    color: #fff;
+}
+*/
+
+.hover > a {
+    background-color: #4f4f4f!important;
+}
+.active > a {
+    background-color: #e1e1e1!important;
+}
+.ui-dialog-titlebar-close {
+    background-color: #dbdbdb!important;
+}
+
+/* BODY */
+
+body {
+    background-image: url('https://images.freecreatives.com/wp-content/uploads/2016/02/Light-Parchment-Texture.jpg');
+}
+
+
+@-webkit-keyframes rainbow {
+    from {
+        -webkit-filter: hue-rotate(10deg);
+        filter: hue-rotate(10deg);
+    }
+    to {
+        -webkit-filter: hue-rotate(360deg);
+        filter: hue-rotate(360deg);
+    }
+}
+
+
+.sheet-rolltemplate-default caption {
+    background-image: url(https://images.freecreatives.com/wp-content/uploads/2016/02/Old-Wood-Vector-Background.jpg);
+    /*background-color: #237e86!important;*/
+    font-weight: 800;
+    font-size: 110%;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+     text-shadow: 0px 1px 2px white;
+}
+
+
+/* MENUS */
+
+#sidebarcontrol {
+
+    padding: 6px !important;
+    text-align: center !important;
+    border: none !important;
+    font-size: 12px !important;
+    background-color: #e5e2c1 !important;
+    top: 10px !important;
+    margin-right: 25px;
+    transform: none;
+    opacity: .8;
+}
+
+#sidebarcontrol .fonticon-menu {
+    color: #aaa !important;
+}
+
+
+
+.ui-slider-handle {
+    background-color: #e5e2c1!important;
+    background-image: none!important;
+}
+
+.ui-tabs-panel {
+   
+    
+     background-color: #cccabd!important;
+    /*
+    background-image: url(https://images.freecreatives.com/wp-content/uploads/2016/02/Light-Parchment-Texture.jpg)!important;
+  */
+}
+
+.dd-content {
+    padding: 0px;
+    /*
+    color: #f7f0db;
+    */
+}
+
+#rightsidebar .paddedtable button {
+    float: right;
+    color: #dfdbbb;
+}
+
+.ui-widget-content {
+    background-color: #cccabe!important;
+    /*
+    background-image: url(https://images.freecreatives.com/wp-content/uploads/2016/02/Light-Parchment-Texture.jpg);
+    */
+    background-image: url(https://images.freecreatives.com/wp-content/uploads/2016/02/Old-Wood-Vector-Background.jpg);
+    background-repeat: repeat;
+    /*color: #f00!important;*/
+    
+}
+
+.ui-dialog {
+    border-radius: 0;
+    border: none;
+}
+.ui-dialog-titlebar {
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid #424242 !important;
+}
+
+
+
+
+
+
+.ui-dialog-title {
+    color: white!important;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: #000;
+    text-shadow: 0px 0px 2px gray;
+}
+
+
+/* the text inside handouts with the default roll20 color styling
+.ui-dialog .content {
+    color: #f2efcb;
+}
+*/
+
+.textchatcontainer .rolled {
+    border-radius: 0 !important;
+    width: 40px !important;
+    height: 40px !important;
+}
+
+#textchat-input {
+    background-image: url(https://images.freecreatives.com/wp-content/uploads/2016/02/Old-Wood-Vector-Background.jpg);
+    background-color: #b5afa4 !important;
+    border-top: none;
+    padding-top: 10px;
+}
+
+#textchat-input .ui-autocomplete-input {
+    background-color: #e8ddcd !important;
+    border: none;
+    border-radius: 0;
+}
+
+#textchat-input .btn,
+#textchat-input .chosen {
+    background-image: none;
+    background-color: #444 !important;
+    border-radius: 0;
+    border: none;
+    color: #dfdcd1!important;
+}
+/*
+label {
+    color: white;
+}
+*/
+#textchat .formula {
+    background-color: transparent!important;
+    border: none!important;
+}
+
+#textchat .message {
+    background-color: #d2d2d2;
+}
+
+#textchat .message.general.you,
+#textchat .message.rollresult.you {
+    background-color: #ddd7c9 !important;
+}
+
+
+#textchat .message.desc {
+    background-color: #ccc!important;
+    color: #111!important;
+}
+#textchat .message.error {
+    background-color: rgba(255, 0, 0, 0.64)!important;
+}
+#textchat .message.private {
+    background-color: rgb(251 230 185 / 61%)!important;
+}
+#textchat .message .spacer {
+    background-color: #444;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#textchat .message.you .spacer {
+    background-color: #005f82;
+}
+
+.playerdots {
+    background-color: rgba(255, 255, 255, 0)!important;
+}
+
+.tabmenu {
+    height: 30px !important;
+    position: absolute !important;
+    left: 0 !important;
+    right: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    top: 0 !important;
+    background-color: #e5e2c1!important;
+    
+}
+
+.tabmenu li {
+    height: 20px !important;
+    width: 16.667% !important;
+    text-align: center !important;
+    top: 0 !important;
+    background-color: #e5e2c1!important;
+}
+
+.tabmenu li a {
+    padding: 0 !important;
+    margin: 0 !important;
+    line-height: 30px !important;
+    border: 0 !important;
+    width: 100% !important;
+    background-color: #e5e2c1!important;
+    color: black !important;
+    text-shadow: none!important;
+}
+
+/*
+.ui-dialog {
+    position: fixed !important;
+    background-color: #9a9a9a;
+}
+
+*/
+
+.ui-dialog .largedialog {
+	padding: 0px 2px 0px 2px !important;
+    background-color: #cccabe !important;
+}
+/*
+
+ui-dialog .largedialog .characterviewer {
+	padding: 0px 2px 0px 2px !important;
+    background-color: #cccabe !important;
+}
+*/
+
+/*
+li.active {
+    background-color: black;
+}
+*/
+/*
+element.style {
+    color: #fff0c5!important;
+}*/
